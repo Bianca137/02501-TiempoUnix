@@ -15,15 +15,48 @@
  */
 package org.japo.java.main;
 
+import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
+import java.util.Random;
+
+
 /**
  *
  * @author Bianca Antonela Glavan - biancaantonela.glavan.alum@iescamp.es
  */
 public class Main {
+
+    public static final Scanner SCN
+            = new Scanner(System.in, "Windows-1252")
+                    .useLocale(Locale.ENGLISH).useDelimiter("\\s+");
+    //public static final Random RND = new Random();
+
     public static void main(String[] args) {
-        
-    
+
+         Date d = new Date();
+         
+         //d.getTime();
+         
+         System.out.println("Tiempo UNIX.........: " + d.getTime());
+         
+         
+         //long tiempo = System.currentTimeMillis(); es igual que el getTime
+         
+        // utilizamos con long BD, Array, coleeción, porque hay que guardarlo. 
+         
+      // long tiempo = new Date().getTime();   // Printf("Tiempo UNIX.....:%d%n", timepo);
+     // Date d;    
+     //    long tiempo2;
+     //tiempo2 = d.getTIme();
+         
+         
+         
+         
         
     }
     
+    
+    
+
 }
