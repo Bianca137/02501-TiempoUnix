@@ -18,8 +18,6 @@ package org.japo.java.main;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
-import java.util.Random;
-
 
 /**
  *
@@ -34,29 +32,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-         Date d = new Date();
-         
-         //d.getTime();
-         
-         System.out.println("Tiempo UNIX.........: " + d.getTime());
-         
-         
-         //long tiempo = System.currentTimeMillis(); es igual que el getTime
-         
-        // utilizamos con long BD, Array, coleeción, porque hay que guardarlo. 
-         
-      // long tiempo = new Date().getTime();   // Printf("Tiempo UNIX.....:%d%n", timepo);
-     // Date d;    
-     //    long tiempo2;
-     //tiempo2 = d.getTIme();
-         
-         
-         
-         
-        
+        Date d = new Date();
+
+        System.out.println("Tiempo UNIX.........: " + d.getTime());
+
     }
-    
-    
-    
 
 }
